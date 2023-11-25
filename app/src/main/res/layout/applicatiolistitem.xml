@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/applicationListImg"
+        android:src="@drawable/dummy_user_img"
+        android:layout_width="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/applicationListName"
+        android:layout_marginStart="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/applicationListImg"
+        android:text="Chrome"
+        android:textSize="12sp"
+        android:fontFamily="@font/quicksand_semibold"
+        android:textColor="@color/blue_grey"
+        android:layout_width="wrap_content"
+        android:layout_toStartOf="@id/toggleButton1"
+        android:layout_height="wrap_content"/>
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/toggle_selector"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn="" />
+
+
+
+
+
+</RelativeLayout>

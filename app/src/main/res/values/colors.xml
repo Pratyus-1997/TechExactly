@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey">#E0E8F6</color>
+
+    <color name="green">#2DBB55</color>
+    <color name="bottom_color">#030000</color>
+
+    <color name="black60">#242E42</color>
+
+
+    <color name="whiteB3">#B3FFFFFF</color>
+    <!--20 % Opacity-->
+    <color name="white33">#33FFFFFF</color>
+    <!--30 % Opacity-->
+    <color name="white4D">#4DFFFFFF</color>
+    <!--40 % Opacity-->
+    <color name="white60">#60FFFFFF</color>
+    <!--10 % Opacity-->
+    <color name="white1A">#1AFFFFFF</color>
+    <color name="white_001">#F2F2F2</color>
+    <color name="white_011">#E9EBEF</color>
+    <color name="white_002">#EFEFEF</color>
+    <!--100 % Opacity-->
+    <color name="white_002FF">#FFEFEFEF</color>
+
+    <color name="white_003">#F1F9FF</color>
+
+    <color name="white_FF">#fffafafa</color>
+    <!--0 % Opacity-->
+
+    <color name="black_001">#2B2C2B</color>
+    <color name="black_002">#222222</color>
+    <!--70 % Opacity-->
+    <color name="black_002B3">#B3222222</color>
+    <!--80 % Opacity-->
+    <color name="black_002CC">#CC222222</color>
+    <!--80 % Black Opacity-->
+    <color name="black_CC">#CC000000</color>
+    <!--90 % Black Opacity-->
+    <color name="black_E6">#E6000000</color>
+    <!--50 % Opacity-->
+    <color name="black_00280">#80222222</color>
+    <!--30 % Opacity-->
+    <color name="black_0024D">#4D222222</color>
+    <color name="black003">#646464</color>
+    <!--100 % Opacity-->
+    <color name="black_002FF">#FF222222</color>
+    <!--100 % Black Opacity-->
+    <color name="black_FF">#FF000000</color>
+
+    <color name="red_001">#EF444E</color>
+    <color name="red_002">#FFEF3C79</color>
+    <color name="red_003">#FB5180</color>
+    <color name="red_004">#FF9D7D</color>
+    <color name="red_005">#FAA316</color>
+    <color name="orange">#FB7B26</color>
+    <color name="red_006">#FF3E49</color>
+    <!--10 % Opacity-->
+
+    <color name="red_topcharts">#E50914</color>
+
+
+
+    <color name="red_0031A">#1AFB5180</color>
+    <!--10 % Opacity-->
+    <color name="red_0041A">#1AFF9D7D</color>
+
+
+    <color name="grey_001">#676D7E</color>
+    <color name="grey_002">#666666</color>
+    <!--40% Opacity-->
+    <color name="grey_060">#60909090</color>
+
+    <color name="teal_001">#E8F9FB</color>
+    <color name="teal_002">#53C5D2</color>
+
+    <color name="teal_003">#A1ECF5</color>
+
+
+    <color name="blue_grey">#94A3B3</color>
+
+    <color name="blue_001">#3D3E70</color>
+    <color name="blue_002">#283244</color>
+    <color name="blue_003">#BCE0FD</color>
+    <color name="blue_004">#2699FB</color>
+    <color name="sea_blue">#46BAF1</color>
+    <color name="sea_blue_001">#1C69EB</color>
+    <color name="blue_follow">#53C5D2</color>
+    <!--Error Colors-->
+    <color name="green_001">#2DC977</color>
+    <color name="yellow_001">#F1C40F</color>
+
+    <!--Login Page-->
+    <color name="login_bg_end_color">#5E2ECE</color>
+    <color name="login_bg_start_color">#2B72F3</color>
+
+    <color name="transparent_color">#00000000</color>
+    <!--10% -->
+    <color name="transparent_color1A">#0A000000</color>
+
+    <!--Shadow Color-->
+    <color name="shadow_color">#0000000D</color>
+
+</resources>

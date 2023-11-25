@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.ApplicationsFragment">
+
+    <RelativeLayout
+        android:background="@drawable/search_edittext_bg"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/homeBackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <EditText
+            android:id="@+id/searchProgramEdittext"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:hint="Search "
+            android:textColorHint="@color/blue_grey"
+            android:paddingStart="16dp"
+            android:textSize="14sp"
+            android:textColor="@color/blue_grey"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/searchicon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="26dp"
+            android:layout_height="26dp"/>
+
+    </RelativeLayout>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/applicationRV"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="50dp"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/applicatiolistitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

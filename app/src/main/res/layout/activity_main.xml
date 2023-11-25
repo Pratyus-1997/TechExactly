@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/registerFragmentLayoutID"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:background="#3DDC84"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/backImg"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/ic_back_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dummyUserProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/dummy_user_img"
+            android:layout_width="100dp"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:textColor="@color/white"
+            android:text="Suvojit"
+            android:textSize="26sp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/dummyUserProfile"
+            android:fontFamily="@font/quicksand_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/linearCurve"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/userName"
+            android:orientation="horizontal"
+            android:background="@drawable/curve_bg"
+            android:layout_width="170dp"
+            android:layout_height="38dp">
+
+            <TextView
+                android:textSize="12sp"
+                android:fontFamily="@font/quicksand_semibold"
+                android:textColor="@color/blue_grey"
+                android:text="Connected"
+                android:layout_marginStart="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+
+                android:src="@drawable/checkedtickbtn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="14dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_below="@id/linearCurve"
+            android:background="@color/transparent_color"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginTop="30dp"
+            app:tabIndicatorColor="@color/white"
+            android:layout_alignParentBottom="true"
+            app:tabSelectedTextColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabs"
+        app:layout_constraintVertical_bias="0.0">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+
+</LinearLayout>
